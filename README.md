@@ -4,11 +4,9 @@ CloudVault is a dark, responsive cloud-storage dashboard backed by a FastAPI ser
 
 > **Current deployment status:** The repository contains the application code and setup instructions. Before the upload flow can work, configure an S3 bucket, AWS credentials or an IAM role for the backend, CORS, and the API URL in `frontend/script.js`. The checked-in API URL is a placeholder. The app does not implement user sign-in or per-user authorization, so treat it as a learning prototype and do not put private user files behind it as-is.
 
-## Project preview
+## Screenshots
 
-![CloudVault promotional UI illustration](assets/linkedin-cloudvault-cover.svg)
-
-This promotional graphic is a stylized UI illustration, not a screenshot captured from a running AWS deployment. The dashboard renders the live files returned by the API once it is configured and reachable.
+No screenshots of the running application are included yet.
 
 ## Features
 
@@ -167,7 +165,4 @@ S3 static website endpoints are commonly HTTP-only. For a production HTTPS site,
 - **Frontend cannot connect:** Replace the placeholder in `frontend/script.js`, confirm FastAPI is reachable, and verify that the configured protocol and port are correct.
 - **Upload URL succeeds but S3 `PUT` fails:** Ensure the frontend sends the exact `Content-Type` used when creating the presigned URL and that bucket CORS allows it.
 
-## LinkedIn project post
-
-A ready-to-edit project description and hashtags are in [`LINKEDIN-POST.md`](LINKEDIN-POST.md). The promotional visual is available at [`assets/linkedin-cloudvault-cover.svg`](assets/linkedin-cloudvault-cover.svg); it is an illustration, not a real app screenshot.
 
