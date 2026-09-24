@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="627" viewBox="0 0 1200 627" role="img" aria-labelledby="title desc">
+  <title id="title">CloudVault — Secure Cloud Storage Dashboard</title>
+  <desc id="desc">Promotional illustration of the CloudVault dark storage dashboard, with usage charts and sample recent files.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090b14"/><stop offset="1" stop-color="#11182a"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9b71ff"/><stop offset="1" stop-color="#42c8ff"/></linearGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9c75ff"/><stop offset="1" stop-color="#51caff"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="150%" height="160%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000" flood-opacity=".35"/></filter>
+  </defs>
+  <rect width="1200" height="627" rx="0" fill="url(#bg)"/>
+  <circle cx="1060" cy="74" r="190" fill="#673de3" opacity=".11"/>
+  <circle cx="94" cy="580" r="205" fill="#157eaa" opacity=".09"/>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <rect x="54" y="48" width="42" height="42" rx="12" fill="url(#accent)"/>
+    <path d="M68 78V61h6l7 10 7-10h6v17h-6V70l-7 9-7-9v8z" fill="#fff" opacity=".96"/>
+    <text x="108" y="77" fill="#f7f8fc" font-size="23" font-weight="700">CloudVault</text>
+    <text x="55" y="190" fill="#a78bfa" font-size="13" font-weight="700" letter-spacing="3">SECURE CLOUD STORAGE DASHBOARD</text>
+    <text x="52" y="260" fill="#f7f8fc" font-size="52" font-weight="750" letter-spacing="-1.8">Your files,</text>
+    <text x="52" y="319" fill="#f7f8fc" font-size="52" font-weight="750" letter-spacing="-1.8">beautifully in sync.</text>
+    <text x="56" y="366" fill="#aab2c4" font-size="19">A responsive dashboard concept for seeing, finding</text>
+    <text x="56" y="395" fill="#aab2c4" font-size="19">and managing your cloud workspace.</text>
+    <rect x="55" y="435" width="225" height="42" rx="21" fill="#171e31" stroke="#323b55"/>
+    <circle cx="77" cy="456" r="5" fill="#52dbac"/><text x="92" y="461" fill="#d6dbee" font-size="13" font-weight="600">HTML · CSS · JavaScript</text>
+    <text x="56" y="554" fill="#6d7891" font-size="12" letter-spacing="1.2">FRONT-END PROTOTYPE · STATIC-HOST READY</text>
+  </g>
+  <!-- Stylized dashboard illustration, not a captured application screenshot. -->
+  <g transform="translate(505 87)" filter="url(#shadow)" font-family="Inter,Segoe UI,Arial,sans-serif">
+    <rect width="640" height="450" rx="19" fill="#0c101b" stroke="#2a3040" stroke-width="1.4"/>
+    <path d="M19 0h602a19 19 0 0 1 19 19v48H0V19A19 19 0 0 1 19 0" fill="#111725"/>
+    <circle cx="25" cy="24" r="4" fill="#ff7183"/><circle cx="40" cy="24" r="4" fill="#ffbd5d"/><circle cx="55" cy="24" r="4" fill="#4fd7a7"/>
+    <rect x="135" y="13" width="350" height="22" rx="7" fill="#0a0e17" stroke="#252d3d"/>
+    <text x="152" y="28" font-size="9" fill="#7e8ba2">cloudvault.app / dashboard</text>
+    <rect x="0" y="67" width="138" height="383" fill="#0a0e17"/>
+    <rect x="20" y="88" width="24" height="24" rx="7" fill="url(#accent)"/><text x="28" y="105" fill="#fff" font-size="13" font-weight="700">C</text>
+    <text x="52" y="104" fill="#f0f2f8" font-size="12" font-weight="700">CloudVault</text>
+    <rect x="13" y="138" width="111" height="29" rx="7" fill="#1a2030"/><text x="27" y="157" fill="#e3e7f1" font-size="10">▦  Dashboard</text>
+    <text x="27" y="194" fill="#778196" font-size="10">▤  My Files</text><text x="27" y="226" fill="#778196" font-size="10">⇄  Shared</text><text x="27" y="258" fill="#778196" font-size="10">◷  Activity</text>
+    <rect x="13" y="332" width="111" height="77" rx="8" fill="#101522" stroke="#272d3b"/><text x="24" y="351" fill="#c0c8d9" font-size="9">Storage</text><text x="99" y="351" fill="#c0c8d9" font-size="9">72%</text><rect x="24" y="362" width="87" height="5" rx="3" fill="#272d3b"/><rect x="24" y="362" width="63" height="5" rx="3" fill="url(#accent)"/><text x="24" y="390" fill="#737e93" font-size="8">72 GB of 100 GB used</text>
+    <text x="161" y="101" fill="#858ff0" font-size="8" font-weight="700" letter-spacing="1.4">CLOUD WORKSPACE</text>
+    <text x="160" y="128" fill="#f1f3fa" font-size="20" font-weight="700">Good evening, Sakshi.</text>
+    <text x="160" y="148" fill="#7e879a" font-size="9">Everything you need, securely stored in one place.</text>
+    <g transform="translate(160 169)">
+      <rect width="139" height="72" rx="9" fill="#121725" stroke="#262d3c"/><text x="14" y="23" fill="#778196" font-size="8">Total files</text><text x="14" y="50" fill="#f0f2f8" font-size="19" font-weight="700">1,284</text><text x="93" y="49" fill="#55d8ad" font-size="8">↗ 12%</text>
+      <rect x="149" width="139" height="72" rx="9" fill="#121725" stroke="#262d3c"/><text x="163" y="23" fill="#778196" font-size="8">Storage used</text><text x="163" y="50" fill="#f0f2f8" font-size="19" font-weight="700">72.4 GB</text>
+      <rect x="298" width="139" height="72" rx="9" fill="#121725" stroke="#262d3c"/><text x="312" y="23" fill="#778196" font-size="8">Shared files</text><text x="312" y="50" fill="#f0f2f8" font-size="19" font-weight="700">48</text>
+    </g>
+    <g transform="translate(160 256)">
+      <rect width="286" height="174" rx="9" fill="#121725" stroke="#262d3c"/><text x="16" y="24" fill="#858ff0" font-size="7" font-weight="700" letter-spacing="1">YOUR FILES</text><text x="16" y="44" fill="#f0f2f8" font-size="13" font-weight="700">Recent files</text>
+      <rect x="15" y="60" width="25" height="25" rx="6" fill="#2b2144"/><text x="23" y="77" fill="#b49aff" font-size="11">◇</text><text x="49" y="71" fill="#e7e9f2" font-size="9" font-weight="600">project-architecture.fig</text><text x="49" y="82" fill="#788297" font-size="7">Figma · 24.8 MB</text>
+      <path d="M15 94h255" stroke="#252b39"/><rect x="15" y="103" width="25" height="25" rx="6" fill="#392918"/><text x="23" y="120" fill="#ffad63" font-size="11">▧</text><text x="49" y="114" fill="#e7e9f2" font-size="9" font-weight="600">aws-infrastructure.pdf</text><text x="49" y="125" fill="#788297" font-size="7">PDF · 8.2 MB</text>
+      <path d="M15 137h255" stroke="#252b39"/><rect x="15" y="146" width="25" height="22" rx="6" fill="#172b3c"/><text x="49" y="157" fill="#e7e9f2" font-size="9" font-weight="600">deployment-guide.docx</text>
+    </g>
+    <g transform="translate(459 256)">
+      <rect width="165" height="174" rx="9" fill="#121725" stroke="#262d3c"/><text x="14" y="24" fill="#858ff0" font-size="7" font-weight="700" letter-spacing="1">STORAGE</text><text x="14" y="44" fill="#f0f2f8" font-size="13" font-weight="700">Usage</text>
+      <circle cx="82" cy="96" r="34" fill="none" stroke="#283042" stroke-width="9"/><circle cx="82" cy="96" r="34" fill="none" stroke="url(#ring)" stroke-width="9" stroke-dasharray="154 214" stroke-linecap="round" transform="rotate(-90 82 96)"/><text x="63" y="99" fill="#f5f5fb" font-size="15" font-weight="700">72%</text><text x="68" y="112" fill="#79849a" font-size="7">used</text>
+      <circle cx="24" cy="143" r="3" fill="#a57bff"/><text x="32" y="146" fill="#9ba4b7" font-size="7">Documents</text><text x="123" y="146" fill="#e0e4ee" font-size="7">28.4 GB</text>
+      <circle cx="24" cy="160" r="3" fill="#50c6ff"/><text x="32" y="163" fill="#9ba4b7" font-size="7">Media</text><text x="123" y="163" fill="#e0e4ee" font-size="7">21.7 GB</text>
+    </g>
+  </g>
+  <text x="1086" y="588" fill="#5f6b83" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="10" text-anchor="end">PROJECT PREVIEW · UI ILLUSTRATION</text>
+</svg>
+
