@@ -4,18 +4,11 @@ CloudVault is a responsive, dark-themed cloud-storage dashboard prototype built 
 
 > **Prototype scope:** The dashboard uses illustrative sample data. Upload is a front-end simulation; selected files are not transferred to a cloud bucket or persisted. The interface is suitable for static hosting, while real authentication, durable file storage, and multi-user data require a backend or a carefully configured object-storage integration.
 
-## Screenshots
+## Screenshots and project preview
 
-The screenshots below show the project running locally at desktop and mobile viewport sizes. They are placeholders until captured from a browser session.
+Authentic screenshots of the running app have not been captured yet. The graphic below is a promotional UI illustration, not a screenshot.
 
-### Desktop dashboard
-
-<!-- Add screenshots/cloudvault-desktop.png after capturing a real desktop browser screenshot. -->
-
-### Mobile dashboard
-
-<!-- Add screenshots/cloudvault-mobile.png after capturing a real mobile browser screenshot. -->
-
+![CloudVault promotional UI illustration](assets/linkedin-cloudvault-cover.svg)
 ## Features
 
 - **Storage overview:** Summary cards, a 72% usage ring, and a category breakdown for documents, media, projects, and other files.
@@ -108,5 +101,6 @@ For an S3-compatible setup:
 ## License
 
 No license has been added yet. Add a `LICENSE` file before granting others explicit reuse rights.
+
 
 
