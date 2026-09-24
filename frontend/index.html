@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CloudVault — S3 Storage Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand"><span class="brand-icon">☁</span><span>CloudVault</span></div>
+    <nav>
+      <a class="active" href="#">Overview</a>
+      <a href="#files">My Files</a>
+      <a href="#activity">Activity</a>
+    </nav>
+    <div class="sidebar-bottom">
+      <div class="storage-card">
+        <div class="storage-title">AWS S3 Storage</div>
+        <div class="storage-sub">Files uploaded from this dashboard are stored in your S3 bucket.</div>
+      </div>
+    </div>
+  </aside>
+
+  <main class="main">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">CLOUD STORAGE</p>
+        <h1>Good to see you.</h1>
+        <p class="muted">Upload files directly to your AWS S3 storage.</p>
+      </div>
+      <button id="uploadBtn" class="primary-btn">＋ Upload file</button>
+      <input id="fileInput" type="file" hidden>
+    </header>
+
+    <section class="stats">
+      <div class="stat-card">
+        <span>Total files</span>
+        <strong id="totalFiles">0</strong>
+      </div>
+      <div class="stat-card">
+        <span>Total stored</span>
+        <strong id="totalSize">0 B</strong>
+      </div>
+      <div class="stat-card">
+        <span>Storage</span>
+        <strong>S3</strong>
+      </div>
+    </section>
+
+    <section id="files" class="panel">
+      <div class="panel-head">
+        <div>
+          <h2>My files</h2>
+          <p class="muted">Live objects from your S3 bucket.</p>
+        </div>
+        <button id="refreshBtn" class="ghost-btn">↻ Refresh</button>
+      </div>
+      <div id="status" class="status"></div>
+      <div id="fileList" class="file-list">
+        <div class="empty">Loading files…</div>
+      </div>
+    </section>
+
+    <section id="activity" class="panel">
+      <div class="panel-head">
+        <div>
+          <h2>How it works</h2>
+          <p class="muted">Secure browser-to-S3 upload flow.</p>
+        </div>
+      </div>
+      <div class="flow">
+        <div><b>1</b><span>Select file</span></div>
+        <div><b>2</b><span>FastAPI creates a presigned URL</span></div>
+        <div><b>3</b><span>Browser uploads directly to S3</span></div>
+        <div><b>4</b><span>Object appears in S3</span></div>
+      </div>
+    </section>
+  </main>
+
+  <div id="toast" class="toast"></div>
+  <script src="script.js"></script>
+</body>
+</html>
+
