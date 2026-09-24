@@ -1,27 +1,26 @@
 # LinkedIn post — CloudVault
 
-🚀 **Project spotlight: CloudVault — Secure Cloud Storage Dashboard**
+🚀 **Project update: CloudVault — AWS S3 Storage Dashboard**
 
-I built CloudVault, a responsive front-end prototype that brings a cloud-storage workspace into one clean, dark dashboard.
+I’ve extended CloudVault from a static dashboard demo into a full-stack learning project with a responsive frontend, a FastAPI backend, and an Amazon S3 upload flow.
 
-✨ **What it includes**
-- At-a-glance storage usage and category breakdowns
-- Recent files with interactive search and sorting
-- An upload dialog with a simulated upload flow
-- A recent activity feed
-- Responsive layouts for desktop and mobile
+✨ **What it does**
+- Requests a short-lived presigned upload URL from FastAPI
+- Uploads the selected file directly from the browser to S3
+- Lists objects stored under the `uploads/` prefix
+- Displays file count, total stored size, timestamps, and temporary download links
+- Includes a refreshable, responsive dark dashboard
 
-🛠️ **Built with:** HTML, CSS, and vanilla JavaScript
+🛠️ **Built with:** HTML, CSS, vanilla JavaScript, Python, FastAPI, boto3, and Amazon S3.
 
-The project is designed to be easy to serve as a static site, including on S3-compatible hosting. The current version is a UI prototype: it uses sample data and does not yet upload or persist files. Connecting authentication, a backend, and private object storage would be the next step.
+The repository includes local setup, IAM, CORS, and static hosting guidance. The backend still needs an AWS bucket and credentials/IAM role plus a configured API URL before the live flow can run. This is a learning project: authentication and per-user authorization are not implemented yet, so it should not be used for private multi-user files as-is.
 
-🔗 **Project:** https://github.com/thesakshidiggikar/CloudVault-Secure-Cloud-Storage-Dashboard
+🔗 **Source code:** https://github.com/thesakshidiggikar/CloudVault-Secure-Cloud-Storage-Dashboard
 
-I’d love to hear your feedback: what would you add to the next version?
+Feedback welcome: what would you build next—authentication, upload progress, or storage quotas?
 
-#CloudComputing #AWS #AmazonS3 #FrontendDevelopment #JavaScript #HTML #CSS #WebDevelopment #CloudStorage #ResponsiveDesign #PortfolioProject
+#AWS #AmazonS3 #FastAPI #Python #CloudComputing #CloudStorage #FrontendDevelopment #JavaScript #WebDevelopment #PortfolioProject
 
-## Image
+## Project image
 
-Use `assets/linkedin-cloudvault-cover.svg` as the project promotional illustration. It is an illustrated UI preview, not a screenshot captured from the running app.
-
+Use [the CloudVault promotional UI illustration](assets/linkedin-cloudvault-cover.svg). It is a designed preview graphic, not a screenshot of a running AWS deployment.
